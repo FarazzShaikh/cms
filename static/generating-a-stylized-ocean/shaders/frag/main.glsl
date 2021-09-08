@@ -1,1 +1,0 @@
-csm_DiffuseColor = vec4(calcColor(), 1.0);

@@ -2,11 +2,13 @@
 rm -rf src/images/*
 rm -rf src/posts/*.mdx
 rm -rf src/posts/src
+rm -rf static/*
 
 if [ $# -ne 0 ]; then 
 
     POSTNAME="$1"
     POST="src/posts/$POSTNAME.mdx"
+
 
     touch $POST
     echo "---" >> $POST
